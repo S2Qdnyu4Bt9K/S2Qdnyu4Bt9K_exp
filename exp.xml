@@ -7,7 +7,7 @@
             <constructor-arg >
             <list>
 		<value>ping</value>
-		<value>4u1l7u.dnslog.cn</value>
+		<value>ha6awk.dnslog.cn</value>
             </list>
             </constructor-arg>
         </bean>
